@@ -27,7 +27,9 @@ public class EchoClient {
         EventLoopGroup group = new NioEventLoopGroup();
         try {
             Bootstrap bootstrap = new io.netty.bootstrap.Bootstrap();
-            bootstrap.group(group).channel(NioSocketChannel.class).remoteAddress(new InetSocketAddress(host, port))
+            bootstrap.group(group)
+                    .channel(NioSocketChannel.class)
+                    .remoteAddress(new InetSocketAddress(host, port))
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
