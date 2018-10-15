@@ -21,11 +21,12 @@ public class NioServer {
     public void serve(int port) throws IOException {
         ServerSocketChannel serverChannel = ServerSocketChannel.open();
         serverChannel.configureBlocking(false);
+
         ServerSocket socket = serverChannel.socket();
         InetSocketAddress address = new InetSocketAddress(port);
         socket.bind(address);
 
-        //打开Selector来处理channel
+        //通过调用Selector.open()方法创建一个Selector
         Selector selector = Selector.open();
         //把ServerSocket注册到Selector以接受连接
         serverChannel.register(selector, SelectionKey.OP_ACCEPT);
