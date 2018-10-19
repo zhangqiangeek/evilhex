@@ -6,26 +6,28 @@ import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 阻塞数组
- * Created by evilhex on 2018/3/6.
+ * Condition的使用案例
+ *
+ * @author evilhex.
+ * @date 2018/10/19 上午11:07.
  */
 public class BoundedBuffer {
-    final Lock lock=new ReentrantLock();
-    final Condition notFull=lock.newCondition();
-    final Condition notEmpty=lock.newCondition();
+    final Lock lock = new ReentrantLock();
+    final Condition notFull = lock.newCondition();
+    final Condition notEmpty = lock.newCondition();
 
-    final Object[] items=new Object[100];
-    int putptr,takeptr,count;
+    final Object[] items = new Object[100];
+    int putptr, takeptr, count;
 
-    public void put(Object x) throws InterruptedException{
+    public void put(Object x) throws InterruptedException {
         lock.lock();
         try {
-            while(count==items.length){
+            while (count == items.length) {
                 notFull.await();
             }
-            items[putptr]=x;
-            if(++putptr==items.length){
-                putptr=0;
+            items[putptr] = x;
+            if (++putptr == items.length) {
+                putptr = 0;
             }
             ++count;
             notEmpty.signal();
@@ -37,12 +39,12 @@ public class BoundedBuffer {
     public Object take() throws InterruptedException {
         lock.lock();
         try {
-            while (count==0){
+            while (count == 0) {
                 notEmpty.await();
             }
-            Object x=items[takeptr];
-            if(++takeptr==items.length){
-                takeptr=0;
+            Object x = items[takeptr];
+            if (++takeptr == items.length) {
+                takeptr = 0;
             }
             --count;
             notFull.signal();
@@ -53,7 +55,7 @@ public class BoundedBuffer {
     }
 
     public static void main(String[] args) {
-        Thread thread=Thread.currentThread();
+        Thread thread = Thread.currentThread();
         LockSupport.park(thread);
         LockSupport.unpark(thread);
         System.out.println("hello");
