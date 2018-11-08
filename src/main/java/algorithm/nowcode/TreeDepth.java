@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.nowcode;
 
 /**
  * 判断是否是平衡二叉树

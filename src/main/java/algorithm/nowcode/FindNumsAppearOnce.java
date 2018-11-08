@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.nowcode;
 
 import java.util.HashMap;
 import java.util.Map;

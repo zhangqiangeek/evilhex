@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.nowcode;
 
 /**
  * @author evilhex.

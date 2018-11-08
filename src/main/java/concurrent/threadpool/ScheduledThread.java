@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 定时线程池执行
+ * JUNIT中执行，需要使用countdownlatch来控制线程的退出时机
  *
  * @author evilhex.
  * @date 2018/10/31 下午7:03.
