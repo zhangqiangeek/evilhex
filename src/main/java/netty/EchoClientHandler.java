@@ -18,12 +18,12 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     /**
      * 记录已经接收消息的转储
-     * @param channelHandlerContext
+     * @param ctx
      * @param in
      * @throws Exception
      */
     @Override
-    protected void channelRead0(ChannelHandlerContext channelHandlerContext, ByteBuf in) throws Exception {
+    protected void channelRead0(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
         System.out.println("Client received: " + in.toString(CharsetUtil.UTF_8));
     }
 
