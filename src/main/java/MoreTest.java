@@ -6,8 +6,8 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class MoreTest {
 
-    static int i = 1;
-    private static ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>(16);
+    //static int i = 1;
+    //private static ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>(16);
 
     public static void main(String[] args) {
 
@@ -27,9 +27,11 @@ public class MoreTest {
         for (ThreadInfo threadInfo : threadInfos) {
             System.out.println(threadInfo.getThreadId() + "-" + threadInfo.getThreadName());
         }*/
-        System.out.println(get());;
+       // System.out.println(get());
+        int temp=1;
+        temp++;
     }
-    public static int get(){
+    /*public static int get(){
         int temp=100;
         try {
             throw  new Exception();
@@ -38,6 +40,6 @@ public class MoreTest {
         }finally {
             temp=999;
         }
-    }
+    }*/
 
 }

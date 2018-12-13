@@ -27,13 +27,13 @@ public class MutesImpl implements Mutex {
     private static class Sync extends AbstractQueuedSynchronizer {
         @Override
         protected boolean tryAcquire(int arg) {
-
+            System.out.println(getState());
             return compareAndSetState(0, 1);
         }
 
         @Override
         protected boolean tryRelease(int arg) {
-
+            System.out.println(getState());
             return compareAndSetState(1, 0);
         }
     }
