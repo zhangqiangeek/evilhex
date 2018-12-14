@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62746359-b928-4e8f-bef2-fea737342bec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/MutesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concurrent/MutesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,108 +17,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="498" column="21" selection-start-line="498" selection-start-column="21" selection-end-line="498" selection-end-column="21" />
-              <folding>
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#17535#17536#0" expanded="true" />
-                <element signature="e#17577#17578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/ConditionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/UnsafeDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="643">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/BoundedBuffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/CloneList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/CountDownLatchDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+            <state relative-caret-position="657">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="e#273#749#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#768#1246#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/TreeConvertList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/SemaphoreDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/CyclicBarrierDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+            <state relative-caret-position="57">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#285#293#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,6 +115,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/algorithm/swordoffer</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,9 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/LockDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/ThreadNumDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/ReentrantLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/ConditionDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/HashMapInfiniteLoop.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" />
@@ -220,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/main/java/rpc/RpcFramework.java" />
         <option value="$PROJECT_DIR$/../demo_cache/cscache/src/main/java/org/cachestudy/writeitbyself/jsr107/CsCaching107Provider.java" />
         <option value="$PROJECT_DIR$/src/main/java/MoreTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/spi/SpiFun.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/spi.SpiInterface" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/ThreadCompetitionDemo.java" />
@@ -232,6 +172,10 @@
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/demo/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/CloneList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/TreeConvertList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/swordoffer/Permutation.java" />
       </list>
     </option>
   </component>
@@ -281,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,23 +255,6 @@
               <item name="evilhex" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="evilhex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="evilhex" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -353,6 +278,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +287,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;/Users/evilhex/workspace/evilhex/src/main/resources/META-INF/services/spi.SpiInterface" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544686073125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544770366815" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -387,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CyclicBarrierDemo">
+  <component name="RunManager" selected="Application.Permutation">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -474,13 +401,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutexMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrent.MutexMain" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.swordoffer.Permutation" />
       <module name="evilhex" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrent.*" />
+          <option name="PATTERN" value="algorithm.swordoffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -610,19 +537,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MutexMain" />
       <item itemvalue="Application.ConditionDemo" />
       <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.SemaphoreDemo" />
       <item itemvalue="Application.CyclicBarrierDemo" />
+      <item itemvalue="Application.Permutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.MutexMain" />
       </list>
     </recent_temporary>
   </component>
@@ -661,12 +588,13 @@
       <workItem from="1543806069483" duration="3908000" />
       <workItem from="1543892145293" duration="4119000" />
       <workItem from="1543919666932" duration="13035000" />
-      <workItem from="1544425992227" duration="20001000" />
+      <workItem from="1544425992227" duration="20669000" />
+      <workItem from="1544752899621" duration="4371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159910000" />
+    <option name="totallyTimeSpent" value="164949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -681,7 +609,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -690,7 +618,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23915738" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23915738" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31226766" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -790,34 +718,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../demo_cache/cscache/src/main/java/org/cachestudy/writeitbyself/store/ValueHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../demo_cache/cscache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../demo_cache/cscache/src/main/java/org/cachestudy/writeitbyself/CsCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar!/javax/cache/spi/CachingProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../demo_cache/cscache/src/main/java/org/cachestudy/writeitbyself/jsr107/CsCache107.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -929,13 +829,6 @@
             <element signature="e#44347#44348#0" expanded="true" />
             <element signature="e#44395#44396#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1013,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="8398">
           <caret line="498" column="21" selection-start-line="498" selection-start-column="21" selection-end-line="498" selection-end-column="21" />
           <folding>
             <element signature="e#8176#8177#0" expanded="true" />
@@ -1131,24 +1024,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/ConditionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/FindInMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/UnsafeDemo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="393">
+          <caret line="258" column="13" lean-forward="true" selection-start-line="258" selection-start-column="13" selection-end-line="258" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/BoundedBuffer.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1165,43 +1084,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/BoundedBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
+        <state relative-caret-position="371">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/SemaphoreDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/UnsafeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/CyclicBarrierDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrent/demo/ConditionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="266">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/PrintMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/CloneList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/TreeConvertList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/swordoffer/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="261" column="8" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
+        <state relative-caret-position="114">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

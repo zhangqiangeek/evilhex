@@ -15,11 +15,11 @@ public class PrintMatrix {
     public ArrayList<Integer> printMatrix(int[][] matrix) {
         if (matrix != null) {
             // 行
-            int columns = matrix.length;
+            int rows = matrix.length;
             // 列
-            int rows = matrix[0].length;
+            int columns = matrix[0].length;
             int start = 0;
-            while ((columns > start * 2 )&& (rows > start * 2)) {
+            while (columns > start * 2 && rows > start * 2) {
                 PrintMatrixInCircle(matrix, columns, rows, start);
                 ++start;
             }
@@ -37,21 +37,21 @@ public class PrintMatrix {
             int number = arr[start][i];
             result.add(number);
         }
-        // 从上到下
+        // 从上到下:最后退化成一列
         if (start < endY) {
             for (int i = start + 1; i <= endY; i++) {
                 int number = arr[i][endX];
                 result.add(number);
             }
         }
-        // 从右向左
+        // 从右向左：最后退化成两行两列
         if (start < endX && start < endY) {
             for (int i = endX - 1; i >= start; i--) {
                 int number = arr[endY][i];
                 result.add(number);
             }
         }
-        // 从下向上
+        // 从下向上：最后退化成三行两列
         if (start < endX && (start < endY - 1)) {
             for (int i = endY - 1; i >= start + 1; --i) {
                 int number = arr[i][start];
