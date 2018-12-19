@@ -1,4 +1,4 @@
-package algorithm.sort;
+package algorithm.found;
 
 /**
  * 三色排序问题

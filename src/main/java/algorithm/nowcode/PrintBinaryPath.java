@@ -5,12 +5,13 @@ import java.util.ArrayList;
 
 /**
  * 打印数据路径，注意的是递归过程中状态的保存
+ *
  * @author evilhex
  * Created by evilhex on 2018/3/16.
  */
 public class PrintBinaryPath {
     /**
-     * 查找一个数的路径
+     * 查找一个树的路径
      *
      * @param root
      * @param target
@@ -19,11 +20,11 @@ public class PrintBinaryPath {
     static public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         ArrayList<Integer> path = new ArrayList<Integer>();
         ArrayList<ArrayList<Integer>> paths = new ArrayList<ArrayList<Integer>>();
-        if (root==null){
+        if (root == null) {
             return paths;
         }
-        FindPaths(root, target,paths, path);
-        for(ArrayList arrayList:paths){
+        FindPaths(root, target, paths, path);
+        for (ArrayList arrayList : paths) {
             System.out.println(arrayList.toArray());
         }
         return paths;
@@ -37,7 +38,7 @@ public class PrintBinaryPath {
      * @param path
      * @return
      */
-    static void FindPaths(TreeNode root, int target,final ArrayList<ArrayList<Integer>> paths, ArrayList<Integer> path) {
+    static void FindPaths(TreeNode root, int target, final ArrayList<ArrayList<Integer>> paths, ArrayList<Integer> path) {
         //如果为叶子节点，就判断当前的路径是否满足条件，递归的出口
         if (root.left == null && root.right == null) {
             path.add(root.val);
@@ -48,19 +49,19 @@ public class PrintBinaryPath {
             if (sum == target) {
                 paths.add(new ArrayList<Integer>(path));
             }
-            path.remove(path.get(path.size()-1));
+            path.remove(path.get(path.size() - 1));
             return;
         } else {
             path.add(root.val);
             //递归左孩子
             if (root.left != null) {
-                FindPaths(root.left, target, paths,path);
+                FindPaths(root.left, target, paths, path);
             }
             //递归右孩子
             if (root.right != null) {
-                FindPaths(root.right, target,paths, path);
+                FindPaths(root.right, target, paths, path);
             }
-            path.remove(path.get(path.size()-1));
+            path.remove(path.get(path.size() - 1));
         }
     }
 
