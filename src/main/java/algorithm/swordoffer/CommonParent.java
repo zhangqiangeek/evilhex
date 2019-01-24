@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 两个节点的最近公共祖先
+ * 普通树中两个节点的最近公共祖先
  *
  * @Author: evilhex
  * @Date: 2018-12-18 16:50
  */
 public class CommonParent {
     public static TreeNode getLastCommonParent(TreeNode root, TreeNode p1, TreeNode p2) {
+
         //path1和path2分别存储根节点到p1和p2的路径（不包括p1和p2）
         List<TreeNode> path1 = new ArrayList<TreeNode>();
         List<TreeNode> path2 = new ArrayList<TreeNode>();

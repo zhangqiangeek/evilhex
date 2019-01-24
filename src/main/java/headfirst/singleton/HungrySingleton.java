@@ -9,12 +9,9 @@ package headfirst.singleton;
  */
 public class HungrySingleton {
 
-    private static final HungrySingleton instance = new HungrySingleton();
+    private static HungrySingleton instance = new HungrySingleton();
 
-    private HungrySingleton() {
-    }
-
-    public static HungrySingleton getInstance() {
+    public HungrySingleton getInstance() {
         return instance;
     }
 

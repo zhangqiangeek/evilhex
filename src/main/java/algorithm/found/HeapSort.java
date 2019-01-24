@@ -59,7 +59,7 @@ public class HeapSort {
         for (int i = getParentIndex(last); i >= 0; --i) {
             int k = i;
             int j = getLeftChildIndex(k);
-            while (j < last) {
+            while (j <= last) {
                 if (j < last) {
                     //如果左子树小于右子树，j就指向右子树
                     if (array[j] <= array[j + 1]) {
@@ -108,7 +108,7 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] array = { 2, 1, 5, 3, 6, 1001, 5, 1000, 7, 8, 9, 4, 5, 5, 5, 7 };
+        int[] array = {2, 1, 5, 3, 6, 1001, 5, 1000, 7, 8, 9, 4, 5, 5, 5, 7};
         HeapSort heapSort = new HeapSort(array);
         heapSort.sort();
         Arrays.stream(array).forEach(val -> System.out.println(val));

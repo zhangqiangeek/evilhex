@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cscache" />
         <module name="evilhex" />
+        <module name="mango" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="cscache" target="1.7" />
-      <module name="evilhex" target="8" />
+      <module name="evilhex" target="1.8" />
+      <module name="mango" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

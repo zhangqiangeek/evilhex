@@ -9,16 +9,13 @@ package headfirst.singleton;
  */
 public class DoubleCheckSingleton {
 
-    private volatile static DoubleCheckSingleton instance;
-
-    private DoubleCheckSingleton() {
-    }
+    private static volatile DoubleCheckSingleton instance;
 
     public static DoubleCheckSingleton getInstance() {
         if (instance == null) {
-            synchronized (DoubleCheckSingleton.class) {
+            synchronized (instance) {
                 if (instance == null) {
-                    return new DoubleCheckSingleton();
+                    instance = new DoubleCheckSingleton();
                 }
             }
         }

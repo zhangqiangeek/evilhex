@@ -12,9 +12,6 @@ public class InnerClassSingleton {
         private static final InnerClassSingleton instance = new InnerClassSingleton();
     }
 
-    private InnerClassSingleton() {
-    }
-
     public static final InnerClassSingleton getInstance() {
         return SingletonHolder.instance;
     }
