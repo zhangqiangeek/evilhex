@@ -1,8 +1,8 @@
-package nio;
+package netty.nio;
 
 import java.nio.ByteBuffer;
 
-import static nio.BufferPut.print;
+import static netty.nio.BufferPut.print;
 
 /**
  * NIO 中的buffer的使用

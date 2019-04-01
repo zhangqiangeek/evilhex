@@ -1,4 +1,4 @@
-package nio.socket;
+package netty.nio.socket;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
