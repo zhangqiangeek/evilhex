@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../demo_cache/cscache.iml" filepath="$PROJECT_DIR$/../demo_cache/cscache.iml" />
       <module fileurl="file://$PROJECT_DIR$/evilhex.iml" filepath="$PROJECT_DIR$/evilhex.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../mango/mango.iml" filepath="$PROJECT_DIR$/../mango/mango.iml" />
     </modules>
   </component>
 </project>

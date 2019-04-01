@@ -43,8 +43,8 @@ public class EchoClient {
     }
 
     public static void main(String[] args) throws Exception {
-        String host = args[0];
-        int port = Integer.parseInt(args[1]);
+        String host = "127.0.0.1";
+        int port = Integer.parseInt("8080");
         new EchoClient(host, port).start();
     }
 }

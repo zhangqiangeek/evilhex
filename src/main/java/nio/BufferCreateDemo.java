@@ -1,7 +1,8 @@
 package nio;
 
-import java.nio.Buffer;
 import java.nio.ByteBuffer;
+
+import static nio.BufferPut.print;
 
 /**
  * NIO 中的buffer的使用
@@ -22,20 +23,6 @@ public class BufferCreateDemo {
         ByteBuffer wrapoffset = ByteBuffer.wrap(bytes, 2, 5);
 
         print(allocate, wrap, wrapoffset);
-
-    }
-
-    private static void print(Buffer... buffers) {
-        for (Buffer buffer : buffers) {
-            System.out.println("capacity=" + buffer.capacity()
-                    + ",limit=" + buffer.limit()
-                    + ",position=" + buffer.position()
-                    + ",hasRemaining:" + buffer.hasArray()
-                    + ",remaining=" + buffer.remaining()
-                    + ",hasArray=" + buffer.hasArray()
-                    + ",isReadOnly=" + buffer.isReadOnly()
-                    + ",arrayOffset=" + buffer.arrayOffset());
-        }
     }
 
 }

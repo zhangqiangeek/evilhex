@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cscache" />
         <module name="evilhex" />
-        <module name="mango" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
