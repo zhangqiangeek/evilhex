@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62746359-b928-4e8f-bef2-fea737342bec" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LockSupportDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LockSupportDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/nio/BufferCreateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nio/BufferCreateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/HelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/HelloServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/RpcConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/RpcFramework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpc/RpcProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LockSupportDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Print.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/inaction/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/inaction/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/inaction/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/inaction/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/MyWebSocketChannelHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/MyWebSocketHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/NettyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/tian/server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thinkinginjava/FillingsLists.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,13 +28,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/evilhex$MyChatServer.ic" NAME="MyChatServer Coverage Results" MODIFIED="1554115687413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>netty.multiclient.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/geyiming/MaxTenuringThreshold.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,69 +48,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/geyiming/SimpleHeapOOM.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="283">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/geyiming/DirectBufferOOM.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jvm/geyiming/ConstantPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="247">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="400">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="287">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="e#1272#1273#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyServerInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            <state relative-caret-position="353">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,18 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/leetcode/lengthOfLongestSubstring2.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/main/java/MyAgent.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/leetcode/IongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/pat/AB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/pat/jia2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/pat/jia3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algorithm/pat/jia4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/UnreentrantLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/ReentrantTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Print.java" />
         <option value="$PROJECT_DIR$/src/main/java/D.java" />
         <option value="$PROJECT_DIR$/src/main/java/concurrent/lock/SpinLock.java" />
@@ -215,8 +210,20 @@
         <option value="$PROJECT_DIR$/src/main/java/jvm/geyiming/SimpleHeapOOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/geyiming/DirectBufferOOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/jvm/geyiming/ConstantPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/first/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/inaction/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interview/foundtion/StringTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServer.java" />
       </list>
     </option>
   </component>
@@ -312,33 +319,12 @@
             </path>
             <path>
               <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.29.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.29.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.29.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.29.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.29.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="evilhex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="evilhex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.29.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.29.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="buffer" type="462c0819:PsiDirectoryNode" />
+              <item name="inaction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +337,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF&#10;/Users/evilhex/workspace/evilhex/.gitignore&#10;/Users/evilhex/workspace/evilhex/src/main/resources/META-INF/services/spi.SpiInterface" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554089972497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554115903928" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34888437" />
@@ -379,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoServer">
+  <component name="RunManager" selected="Application.MyChatServer">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -424,41 +410,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstantPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.geyiming.ConstantPool" />
-      <module name="evilhex" />
-      <option name="PROGRAM_PARAMETERS" value="1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.geyiming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DirectBufferOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.geyiming.DirectBufferOOM" />
-      <module name="evilhex" />
-      <option name="VM_PARAMETERS" value="-Xmx64m -XX:+PrintGCDetails" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvm.geyiming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.EchoClient" />
+      <option name="MAIN_CLASS_NAME" value="netty.inaction.EchoClient" />
       <module name="evilhex" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="netty.inaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,12 +425,12 @@
       </method>
     </configuration>
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="netty.EchoServer" />
+      <option name="MAIN_CLASS_NAME" value="netty.inaction.EchoServer" />
       <module name="evilhex" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="netty.*" />
+          <option name="PATTERN" value="netty.inaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,13 +438,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleHeapOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvm.geyiming.SimpleHeapOOM" />
+    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.multiclient.MyChatClient" />
       <module name="evilhex" />
-      <option name="VM_PARAMETERS" value="-Xmx64m -Xms64m" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jvm.geyiming.*" />
+          <option name="PATTERN" value="netty.multiclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.multiclient.MyChatServer" />
+      <module name="evilhex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.multiclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.foundtion.StringTest" />
+      <module name="evilhex" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.foundtion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,19 +588,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleHeapOOM" />
-      <item itemvalue="Application.DirectBufferOOM" />
-      <item itemvalue="Application.ConstantPool" />
       <item itemvalue="Application.EchoServer" />
       <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.MyChatServer" />
+      <item itemvalue="Application.MyChatClient" />
+      <item itemvalue="Application.StringTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyChatServer" />
+        <item itemvalue="Application.MyChatClient" />
+        <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.ConstantPool" />
-        <item itemvalue="Application.DirectBufferOOM" />
-        <item itemvalue="Application.SimpleHeapOOM" />
       </list>
     </recent_temporary>
   </component>
@@ -691,12 +677,12 @@
       <workItem from="1552903773334" duration="1850000" />
       <workItem from="1553235676793" duration="1443000" />
       <workItem from="1553502790121" duration="897000" />
-      <workItem from="1553565835081" duration="14935000" />
+      <workItem from="1553565835081" duration="28417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307822000" />
+    <option name="totallyTimeSpent" value="321304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,7 +697,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19527897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19670959" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -719,8 +705,8 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27633208" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2936803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32961586" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -733,6 +719,7 @@
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5030979" side_tool="true" weight="0.24248926" />
       <window_info anchor="right" id="jclasslib" order="0" weight="0.5593705" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
@@ -745,7 +732,7 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Structure" order="12" weight="0.24248926" />
+      <window_info anchor="right" id="Structure" order="12" sideWeight="0.4969021" weight="0.24248926" />
       <window_info anchor="right" id="Maven" order="13" weight="0.3297568" />
       <window_info anchor="right" x="100" y="100" width="1240" height="700" id="Byte Code Viewer" order="14" type="FLOATING" />
     </layout>
@@ -851,230 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/nio/HeapByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="395" column="15" lean-forward="true" selection-start-line="395" selection-start-column="15" selection-end-line="395" selection-end-column="15" />
-          <folding>
-            <element signature="e#12369#12370#0" expanded="true" />
-            <element signature="e#12420#12421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/socket/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/BufferCreateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/BufferPut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/DisplayElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/impl/WeatherStation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/impl/WeatherData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/socket/BioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nio/socket/TimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/headfirst/observer/impl/CurrentConditionsDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/foundtion/Boy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/foundtion/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.ArrayList">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.ArrayList</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.RandomAccess</node>
-            <node x="" y="">java.lang.Cloneable</node>
-            <node x="" y="">java.util.AbstractCollection</node>
-            <node x="" y="">java.util.List</node>
-            <node x="" y="">java.util.Collection</node>
-            <node x="" y="">java.util.AbstractList</node>
-            <node x="" y="">java.lang.Iterable</node>
-            <node x="" y="">java.io.Serializable</node>
-            <node x="" y="">java.util.ArrayList</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="301.0" y="173.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/foundtion/Son.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interview/foundtion/Fantype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15618">
-          <caret line="867" column="36" selection-start-line="867" selection-start-column="36" selection-end-line="867" selection-end-column="36" />
-          <folding>
-            <element signature="e#30684#30685#0" expanded="true" />
-            <element signature="e#30716#30717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18696">
-          <caret line="1031" column="20" selection-start-line="1031" selection-start-column="20" selection-end-line="1031" selection-end-column="20" />
-          <folding>
-            <element signature="e#38378#38379#0" expanded="true" />
-            <element signature="e#38416#38417#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LockSupportDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MyAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="70" column="80" selection-start-line="70" selection-start-column="80" selection-end-line="70" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1653">
@@ -1236,6 +999,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jvm/geyiming/ConstantPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1243,41 +1009,251 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="703" column="18" selection-start-line="703" selection-start-column="18" selection-end-line="703" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="399" column="33" selection-start-line="399" selection-start-column="33" selection-end-line="399" selection-end-column="33" />
+          <folding>
+            <element signature="e#14455#14456#0" expanded="true" />
+            <element signature="e#14501#14502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="370" column="20" selection-start-line="370" selection-start-column="20" selection-end-line="370" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="260">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoServer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="336">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+    <entry file="uml://JAVA/netty.EchoServerHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>netty.EchoServerHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">io.netty.channel.ChannelHandlerAdapter</node>
+            <node x="" y="">io.netty.channel.ChannelInboundHandlerAdapter</node>
+            <node x="" y="">netty.EchoServerHandler</node>
+            <node x="" y="">io.netty.channel.ChannelInboundHandler</node>
+            <node x="" y="">io.netty.channel.ChannelHandler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="193.0" y="133.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoClientHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="260">
+          <caret line="207" column="18" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netty/EchoServerHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/socket/SocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/tian/server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/NettyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/MyWebSocketChannelHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/MyWebSocketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2887">
+          <folding>
+            <element signature="e#0#5327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MyAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LockSupportDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/util/concurrent/GlobalEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.29.Final/netty-all-4.1.29.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interview/foundtion/StringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/inaction/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="e#1272#1273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netty/multiclient/MyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package netty;
+package netty.inaction;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -16,6 +16,8 @@ import io.netty.util.CharsetUtil;
 public class EchoServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+        System.out.println(msg.getClass());
+        System.out.println(ctx.channel().remoteAddress());
         // 覆盖channelRead()事件处理程序方法
         ByteBuf in = (ByteBuf) msg;
         System.out.println("Server received: " + in.toString(CharsetUtil.UTF_8));

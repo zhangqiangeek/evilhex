@@ -1,4 +1,4 @@
-package netty;
+package netty.inaction;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
@@ -18,6 +18,7 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     /**
      * 记录已经接收消息的转储
+     *
      * @param ctx
      * @param in
      * @throws Exception

@@ -1,4 +1,4 @@
-package netty;
+package netty.inaction;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
