@@ -1,4 +1,4 @@
-package netty.websocket;
+package netty.transport;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -9,12 +9,13 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 /**
- * 长连接服务端
+ * 序列化传输
+ * protoc --java_out=src/main/java  src/main/Protobuf/Person.proto
  *
  * @Author: evilhex
- * @Date: 2019-04-01 19:20
+ * @Date: 2019-04-02 16:11
  */
-public class MyServer {
+public class TestServer {
 
     public static void main(String[] args) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
@@ -25,7 +26,7 @@ public class MyServer {
             serverBootstrap.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .handler(new LoggingHandler(LogLevel.INFO))
-                    .childHandler(new WebSocketChannelInitailizer());
+                    .childHandler(new TestServerInitializer());
 
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
