@@ -1,116 +1,56 @@
 package algorithm.found;
 
-import java.util.Arrays;
-
 /**
  * 堆排序：不稳定，时间复杂度log(n)，空间复杂度 o(1)
- * http://blog.51cto.com/flyingcat2013/1283090
+ * 1、http://blog.51cto.com/flyingcat2013/1283090
+ * 2、参考《算法》中算法描述
  *
  * @author evilhex.
  * @date 2018/7/26 上午11:27.
  */
-public class HeapSort {
-    private int[] array;
+public class HeapSort<T extends Comparable<T>> {
 
-    public HeapSort(int[] array) {
-        this.array = array;
-    }
+    // 指针0位置不存储数据
+    private T[] nums;
 
-    /**
-     * 获取父节点
-     *
-     * @param child
-     * @return
-     */
-    private int getParentIndex(int child) {
-        return (child - 1) / 2;
-    }
-
-    /**
-     * 获取左孩子节点
-     *
-     * @param parent
-     * @return
-     */
-    private int getLeftChildIndex(int parent) {
-        return 2 * parent + 1;
-    }
-
-    /**
-     * 堆排序
-     */
-    public void sort() {
-        initHeap();
-        int last = array.length - 1;
-        while (last > 0) {
-            swap(0, last);
-            last--;
-            if (last > 0) {
-                adjustHeap(last);
-            }
+    public void sort(T[] nums) {
+        int N = nums.length - 1;
+        for (int k = N / 2; k >= 1; k--) {
+            sink(nums, k, N);
+        }
+        while (N > 1) {
+            swap(nums, 1, N--);
+            sink(nums, 1, N);
         }
     }
 
-    /**
-     * 初始化一个大根堆
-     */
-    private void initHeap() {
-        int last = array.length - 1;
-        for (int i = getParentIndex(last); i >= 0; --i) {
-            int k = i;
-            int j = getLeftChildIndex(k);
-            while (j <= last) {
-                if (j < last) {
-                    //如果左子树小于右子树，j就指向右子树
-                    if (array[j] <= array[j + 1]) {
-                        j++;
-                    }
-                }
-                if (array[k] > array[j]) {
-                    break;
-                } else {
-                    swap(k, j);
-                    //继续筛选子树
-                    k = j;
-                }
-                j = getLeftChildIndex(k);
-            }
+
+    private void sink(T[] nums, int k, int N) {
+        while (k * 2 <= N) {
+            int j = k * 2;
+            if (j < N && less(nums, j, j + 1)) j++;
+            if (!less(nums, k, j)) break;
+            swap(nums, k, j);
+            k = j;
         }
     }
 
-    /**
-     * 调整堆
-     *
-     * @param lastIndex
-     */
-    public void adjustHeap(int lastIndex) {
-        int k = 0;
-        while (k <= getParentIndex(lastIndex)) {
-            int j = getLeftChildIndex(k);
-            if (j < lastIndex) {
-                if (array[j] < array[j + 1]) {
-                    j++;
-                }
-            }
-            if (array[k] < array[j]) {
-                swap(k, j);
-                k = j;
-            } else {
-                break;
-            }
-        }
+    private boolean less(T[] nums, int i, int j) {
+        return nums[i].compareTo(nums[j]) < 0;
     }
 
-    private void swap(int i, int j) {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+    private void swap(T[] nums, int i, int j) {
+        T t = nums[i];
+        nums[i] = nums[j];
+        nums[j] = t;
     }
 
     public static void main(String[] args) {
-        int[] array = {2, 1, 5, 3, 6, 1001, 5, 1000, 7, 8, 9, 4, 5, 5, 5, 7};
-        HeapSort heapSort = new HeapSort(array);
-        heapSort.sort();
-        Arrays.stream(array).forEach(val -> System.out.println(val));
+        Integer[] nums = {1, 3, 51, 7, 91, 10};
+        HeapSort<Integer> sort = new HeapSort<>();
+        sort.sort(nums);
+        for (Integer integer : nums) {
+            System.out.println(integer);
+        }
     }
 }

@@ -1,53 +1,37 @@
 package algorithm.found;
 
-import java.util.Arrays;
-
 /**
  * 快速排序
  *
  * @author evilhex.
  * @date 2018/7/26 上午10:50.
  */
-public class QuickSort {
-    public static void quickSort(int[] arr) {
-        qsort(arr, 0, arr.length - 1);
+public class QuickSort<T extends Comparable<T>> extends Sort<T> {
+    @Override
+    public void sort(T[] nums) {
+        sort(nums, 0, nums.length - 1);
     }
 
-    public static void qsort(int[] arr, int low, int high) {
-        if (low < high) {
-            int pivot = partition(arr, low, high);
-            qsort(arr, low, pivot - 1);
-            qsort(arr, pivot + 1, high);
+    private void sort(T[] nums, int l, int h) {
+        if (h <= l)
+            return;
+        int j = partition(nums, l, h);
+        sort(nums, l, j - 1);
+        sort(nums, j + 1, h);
+    }
+
+    private int partition(T[] nums, int l, int h) {
+        int i = l, j = h + 1;
+        T v = nums[l];
+        while (true) {
+            while (less(nums[++i], v) && i != h) ;
+            while (less(v, nums[--j]) && j != l) ;
+            if (i >= j)
+                break;
+            swap(nums, i, j);
         }
-    }
-
-    /**
-     * 以pivot为数轴，划分数组
-     *
-     * @param arr
-     * @param low
-     * @param high
-     * @return
-     */
-    public static int partition(int[] arr, int low, int high) {
-        int pivot = arr[low];
-        while (low < high) {
-            while (low < high && arr[high] >= pivot) {
-                --high;
-            }
-            arr[low] = arr[high];
-            while (low < high && arr[low] <= pivot) {
-                ++low;
-            }
-            arr[high] = arr[low];
-        }
-        arr[low] = pivot;
-        return low;
-    }
-
-    public static void main(String[] args) {
-        int[]  a={1,2,3,4,7,2,10,8,9,1,3};
-        quickSort(a);
-        Arrays.stream(a).forEach(x-> System.out.println(x));
+        // V放入到正确的位置
+        swap(nums, l, j);
+        return j;
     }
 }

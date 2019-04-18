@@ -8,4 +8,9 @@ package headfirst.singleton;
  */
 public enum EnumSingletion {
     SINGLETION;
+
+    public static void main(String[] args) {
+        System.out.println(EnumSingletion.SINGLETION);
+        System.out.println(Runtime.getRuntime());
+    }
 }

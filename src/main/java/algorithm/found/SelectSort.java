@@ -1,30 +1,26 @@
 package algorithm.found;
 
-import java.util.Arrays;
-
 /**
+ * 选择排序
+ *
  * @Author: evilhex
  * @Date: 2018-12-22 17:35
  */
-public class SelectSort {
-    public static void SelectSort(int[] array) {
-        for (int i = 0; i < array.length - 1; i++) {
-            int value = array[i];
+public class SelectSort<T extends Comparable<T>> extends Sort<T> {
+
+    @Override
+    public void sort(T[] nums) {
+        int n = nums.length;
+        for (int i = 0; i < n - 1; i++) {
             int min = i;
-            for (int j = i; j < array.length ; j++) {
-                if (array[j] < value) {
+            for (int j = i + 1; i < n; j++) {
+                if (less(nums[j], nums[min])) {
                     min = j;
                 }
             }
-            int temp = array[i];
-            array[i] = array[min];
-            array[min] = temp;
+            if (i != min) {
+                swap(nums, i, min);
+            }
         }
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {2, 4, 6, 7, 1, 9};
-        SelectSort(arr);
-        Arrays.stream(arr).forEach(value -> System.out.println(value));
     }
 }
