@@ -6,7 +6,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * 独占锁的实现
  *
  * @author evilhex
- *         2018/3/6.
+ * 2018/3/6.
  */
 public class MutesImpl implements Mutex {
     private Sync sync = new Sync();
